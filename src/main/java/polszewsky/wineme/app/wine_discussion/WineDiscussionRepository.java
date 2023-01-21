@@ -1,0 +1,8 @@
+package polszewsky.wineme.app.wine_discussion;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.rest.core.annotation.RepositoryRestResource;
+
+@RepositoryRestResource(exported = false)
+public interface WineDiscussionRepository extends JpaRepository<WineDiscussion, Integer> {
+}
