@@ -10,7 +10,7 @@
     </parent>
     <groupId>polszewsky</groupId>
     <artifactId>wineme</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>wineme</name>
     <description>Demo project for Spring Boot Application Info</description>
     <properties>
