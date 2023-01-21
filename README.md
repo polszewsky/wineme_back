@@ -18,3 +18,18 @@ friends/users.
 - REST API + JsonSerialize
 - JUnit + Mockito test
 - DDD / CleanCode
+
+# build / run
+
+Database:
+You need to run PostgreSQL DB on port 5432. Or You can use included docker implementation:
+
+> cd ./scripts/postgres
+>
+> docker-compose up -d
+
+Java App:
+You need Java17 to run and compile.
+
+please perform clean installation before running app
+> ./mvnw clean install
